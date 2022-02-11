@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './Contact.module.css'
+import BlockHeader from "../common/blockHeader/BlockHeader";
 
 
 const Contact = () => {
     return (
-        <div className={style.contactBlock}>
+        <div className={style.contactBlock} id='contact'>
             <div className={style.contactContainer}>
                 <form>
-                    <h3>Contact Me</h3>
+                    <BlockHeader title={'Contact Me'} description={`Let's get in touch`}/>
                     <label>Your Name</label>
                     <input/>
                     <label>Subject</label>

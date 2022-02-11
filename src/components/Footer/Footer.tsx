@@ -9,9 +9,10 @@ const Footer = () => {
         <div className={style.footerBlock}>
             <span>Bohdan Peliutkevich</span>
             <div className={style.links}>
-                <a href={'https://www.linkedin.com/in/bohdan-peliutkevich/'}><img src={linkedIn}/></a>
-                <a href={'https://github.com/BohdanDS'}><img src={github}/></a>
-                <a href={'mailto:bohdanpeliutkevich@gmail.com'}><img src={gmail}/></a>
+                <a href={'https://www.linkedin.com/in/bohdan-peliutkevich/'}><img className={style.footerIcon}
+                                                                                  src={linkedIn}/></a>
+                <a href={'https://github.com/BohdanDS'}><img className={style.footerIcon} src={github}/></a>
+                <a href={'mailto:bohdanpeliutkevich@gmail.com'}><img className={style.footerIcon} src={gmail}/></a>
             </div>
             <span>© All Right Reserved</span>
         </div>

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 .nav {
-    border: 1px solid red;
     width: 400px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    font-size: 22px;
+    color: #f8f9fa;
+    font-family: Poppins, sans-serif;
 }
+/*.nav:hover {*/
+/*    text-decoration: underline;*/
+/*}*/

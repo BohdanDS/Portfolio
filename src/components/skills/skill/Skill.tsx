@@ -4,9 +4,10 @@ import style from './Skill.module.css'
 type SkillPropsType = {
     title: string
     description: string
+    imgUrl:string
 }
 
-const Skill = ({title, description, ...props}: SkillPropsType) => {
+const Skill = ({title, description, imgUrl, ...props}: SkillPropsType) => {
     return (
         <div className={style.skill}>
             <div className={style.icon}></div>

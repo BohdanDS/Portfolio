@@ -1,5 +1,10 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .project {
-    width: 300px;
+    width: 400px;
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -9,25 +14,43 @@
 
 .imageBlock {
     height: 400px;
-    width: 300px;
-    background-color: darkslateblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 400px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
 }
+
 .description {
     padding: 10px;
 }
 
 .viewButton {
+    position: absolute;
+    top: 50%;
+    left: 40%;
     height: 30px;
     width: 100px;
     border: none;
-    background-color: darkslategray;
+    background-color: #f5df4e;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .viewButton:hover {
-    height: 35px;
-    width: 120px;
-    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1130px) {
+    .imageBlock {
+        justify-content: center;
+    }
 }
